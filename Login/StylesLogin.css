@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100px;
+    background: #98d4dd;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    background:rgb(29, 209, 217);
+    text-align: center;
+    padding: 20px 30px;
+    box-shadow: 7px 13px 37px rgba(19, 5, 211, 0.267);
+    border-top:4px solid #017bab;
+    margin-top: 100px;
+    
+
+}
+
+form .title {
+    color: rgb(10, 10, 10);
+    font-size: 30px;
+    margin-bottom: 30px;
+    margin:0;
+    height:40px;
+    border-bottom: 1px solid;
+    width: 100%;
+    text-align: right;
+}
+
+form label{
+    margin-bottom: 35px;
+    
+}
+
+form label .fa-solid fa-user{
+    font-size: 30px;
+    color: #0721F4;
+    margin-right: 8px;
+    
+    
+}
+
+form label .fa-solid fa-lock{
+    font-size: 30px;
+    color: #0721F4;
+    margin-right: 10px;
+}
+
+
+form label input{
+    outline: none;
+    border: none;
+    color:#0721F4;
+    
+    padding: 5px 5px;
+    font-size: 12px;
+    width: 100%;
+    
+}
+
+form label button{
+    background-color:#0721F4;
+    color: rgb(37, 37, 37);
+    border:none;
+    font-size: 1rem;
+    padding: 5px 10px;
+    border-radius: .25em;
+    cursor: pointer;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+form label input::placeholder {
+    color:black;
+    
+}
+
+form .link{
+    color:black;
+    margin-bottom: 35px;
+    
+
+}
+form button:hover, button:focus{
+    background: #11f176
+
+}
