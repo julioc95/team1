@@ -1,3 +1,3 @@
-function mostrarMensaje() {
-  alert("te has inscrito");
+function inscribir() {
+  alert("Te has inscrito a este evento");
 }
